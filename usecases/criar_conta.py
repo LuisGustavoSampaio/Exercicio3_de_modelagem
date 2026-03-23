@@ -1,5 +1,5 @@
-from domain.conta import Conta
-from domain.cliente import Cliente
+from dominio.conta import Conta
+from dominio.cliente import Cliente
 
 class CriarContaUseCase:
     def __init__(self, conta_repository):

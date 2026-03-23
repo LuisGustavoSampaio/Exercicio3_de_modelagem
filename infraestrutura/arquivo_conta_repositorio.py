@@ -1,6 +1,6 @@
-from interfaces.iconta_repository import IContaRepository
-from domain.conta import Conta
-from domain.cliente import Cliente
+from interfaces.conta_repositorio import IContaRepository
+from dominio.conta import Conta
+from dominio.cliente import Cliente
 
 class ArquivoContaRepository(IContaRepository):
 
